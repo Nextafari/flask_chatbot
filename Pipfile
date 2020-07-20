@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+flask = "*"
+chatterbot = "==1.0.0"
+chatterbot-corpus = "==1.2.0"
+sqlalchemy = "==1.2.0"
+flake8 = "*"
+pytz = "*"
+
+[requires]
+python_version = "3.6"
