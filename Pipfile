@@ -12,6 +12,7 @@ chatterbot-corpus = "==1.2.0"
 sqlalchemy = "==1.2.0"
 flake8 = "*"
 pytz = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.6"
