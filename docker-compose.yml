@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    command: python3 bot_app.py 0.0.0.0:5000
+    volumes:
+      - .:/flask_chabot
+    ports:
+      - "5000:5000"
