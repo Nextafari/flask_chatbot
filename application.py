@@ -6,7 +6,7 @@ from datetime import date
 from datetime import datetime
 
 
-app = Flask(__name__)
+application = Flask(__name__)
 
 # naming the bot
 bot = ChatBot("Demo_bot")
@@ -56,4 +56,4 @@ def get_bot_response():
 
 
 if __name__ == "__main__":
-   app.run(debug=True,host='0.0.0.0')
+   application.run(debug=True,host='0.0.0.0')
