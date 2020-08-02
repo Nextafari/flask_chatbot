@@ -6,7 +6,7 @@ from datetime import date
 from datetime import datetime
 
 
-application = Flask(__name__)
+app = Flask(__name__)
 
 # naming the bot
 bot = ChatBot("Demo_bot")
