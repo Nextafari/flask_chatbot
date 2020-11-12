@@ -38,6 +38,10 @@ conversations = [
     say_datetime,
     "Are you sapien ?",
     "No I am just a chatbot built by Emmanuel",
+    "What do you know ?",
+    "I know as much as my Lord lets me know",
+    "Are you male or female ?",
+    "I am whatever you want me to be",
 ]
 
 
